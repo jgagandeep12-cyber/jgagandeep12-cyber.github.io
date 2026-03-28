@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gagandeep | Creator & Future Doctor</title>
+    <style>
+        :root {
+            --primary: #dc2626; /* YouTube Red */
+            --insta: #e1306c;   /* Instagram Pink/Red */
+            --dark: #0f172a;
+            --light: #f8fafc;
+            --accent: #2563eb;
+        }
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; background: var(--light); color: var(--dark); line-height: 1.6; scroll-behavior: smooth; }
+        header { background: white; padding: 1rem 10%; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 100; }
+        .hero { text-align: center; padding: 100px 10%; background: linear-gradient(135deg, #0f172a, #1e293b); color: white; }
+        .container { padding: 60px 10%; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin-top: 30px; }
+        .card { background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border-top: 4px solid var(--primary); }
+        .tag { background: #fee2e2; color: #dc2626; padding: 4px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: bold; }
+        .vision-box { background: #eff6ff; padding: 30px; border-radius: 15px; border-left: 5px solid var(--accent); margin-top: 20px; }
+        
+        /* Social Section Styles */
+        .social-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 30px; }
+        .social-card { background: #fff; border-radius: 15px; padding: 30px; text-align: center; box-shadow: 0 4px 20px rgba(0,0,0,0.1); border: 1px solid #e2e8f0; height: 100%; display: flex; flex-direction: column; justify-content: space-between; }
+        .social-logo { width: 100px; height: 100px; object-fit: contain; margin: 0 auto 20px auto; }
+        .yt-btn { background: #ff0000; color: white !important; padding: 12px 25px; border-radius: 5px; font-weight: bold; display: inline-block; transition: 0.3s; text-decoration: none; }
+        .ig-btn { background: linear-gradient(45deg, #f09433, #e31683, #bc1888); color: white !important; padding: 12px 25px; border-radius: 5px; font-weight: bold; display: inline-block; transition: 0.3s; text-decoration: none; }
+        .social-btn:hover { transform: scale(1.05); opacity: 0.9; }
+
+        footer { text-align: center; padding: 40px; background: var(--dark); color: white; }
+        a { color: var(--accent); text-decoration: none; font-weight: 500; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h2 style="margin:0; color: var(--primary);">Gagandeep</h2>
+    <nav>
+        <a href="#about" style="margin-left:20px;">About</a>
+        <a href="#socials" style="margin-left:20px;">Socials</a>
+        <a href="#experience" style="margin-left:20px;">Experience</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Description</h1>
+    <p>Content Creator | Student Leader | Future Medical Professional</p>
+</section>
+
+<div class="container" id="about">
+    <h2>About Me</h2>
+    <p>I am a goal-oriented and creative individual seeking to leverage strong digital storytelling and audience engagement skills as a content creator while pursuing academic excellence in the medical field.</p>
+    
+    <div class="grid">
+        <div class="card">
+            <h3>Technical Skills</h3>
+            <p>Proficient in <strong>HTML & Web Design</strong>. I've successfully completed AI-themed web projects and manage all aspects of digital production.</p>
+        </div>
+        <div class="card" style="border-top-color: var(--accent);">
+            <h3>Academic Excellence</h3>
+            <p>Top performer in <strong>NEXT TOPPERS</strong>. Currently targeting 90%+ in my CBSE Class 10 Boards as a foundation for NEET.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="socials">
+    <h2 style="text-align: center;">Connect With Me</h2>
+    <div class="social-grid">
+        <div class="social-card" style="border-top: 5px solid #ff0000;">
+            <div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" alt="YouTube Logo" class="social-logo">
+                <h3>YouTube</h3>
+                <p>Comedy & Entertainment</p>
+                <p style="font-size: 0.9rem; color: #64748b;">Subscribe for the latest comedy sketches and creative content.</p>
+            </div>
+            <a href="http://www.youtube.com/@comedykaaddabyGagandeep" target="_blank" class="yt-btn social-btn">Visit ComedyKaAdda</a>
+        </div>
+
+        <div class="social-card" style="border-top: 5px solid #e1306c;">
+            <div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt="Instagram Logo" class="social-logo">
+                <h3>Instagram</h3>
+                <p>Behind the Scenes</p>
+                <p style="font-size: 0.9rem; color: #64748b;">Follow me for daily updates, life as a student, and creator tips.</p>
+            </div>
+            <a href="https://instagram.com/gagandeep.archer" target="_blank" class="ig-btn social-btn">Follow @gagandeep.archer</a>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="experience" style="background: #f1f5f9;">
+    <h2>Leadership & Experience</h2>
+    <div class="grid">
+        <div class="card">
+            <span class="tag">Leadership</span>
+            <h3>School Positions</h3>
+            <p>Served as <strong>Class Monitor</strong> and <strong>House Captain</strong>. Lead Coordinator for the School Farewell Event.</p>
+        </div>
+        <div class="card">
+            <span class="tag" style="background: #fee2e2; color: #dc2626;">YouTube</span>
+            <h3>Content Lead</h3>
+            <p>Director and Editor for <strong>ComedyKaAddaByGagandeep</strong>. Focused on scripting and digital production.</p>
+        </div>
+        <div class="card">
+            <span class="tag" style="background: #dbeafe; color: #2563eb;">Mentorship</span>
+            <h3>Peer Mentor</h3>
+            <p>Helping classmates in the NEXT TOPPERS batch master Class 10 concepts.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="vision">
+    <h2>My Dual Path</h2>
+    <div class="vision-box">
+        <p><strong>The Influencer:</strong> Growing as a creator who brings value and laughter to my audience.</p>
+        <p><strong>The Doctor:</strong> Pursuing the discipline of science to qualify for the NEET exam.</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 Gagandeep. All Rights Reserved.</p>
+    <p>Check out my latest work on YouTube and Instagram!</p>
+</footer>
+
+</body>
+</html>
